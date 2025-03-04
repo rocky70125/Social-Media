@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.leftsider{
+            margin-top: 70px;
+            margin-left: 10px;
+            float: left;
+            width: 340px;
+        }
+        .lo{
+            margin-left: 0;
+        }
+        .watch{
+            font-size: 38px !important;
+            margin-top: 16px;
+            color: #6278fe;
+            margin-right: 2px;
+        }
+        .logosidetext{
+            display: inline-block;
+            margin-left: 12px;
+            margin-top: 23px;
+            font-weight: bold;
+        }
+        div.subsidebarheading{
+            display: flex;
+            cursor: pointer;
+        }
+        div.subsidebarheading:hover{
+            color: #6277feb7;
+        }
+        span.e{
+            color: red !important;
+        }
+        span.frmemo{
+            color: #22c1c3;
+        }
+        div.requestdiv{
+            display: inline-block;
+            margin-top: 80px;
+            margin-left: 10px;
+            border-radius: 3%;
+            margin-right: 10px;
+            background-color: white;
+            width: 640px;
+            min-height: 400px;
+            margin-bottom: 20px;
+            padding: 30px;
+        }
+        div.requestbox{
+            width: 200px;
+            min-height: 300px;
+            display: inline-block;
+            margin-right: 10px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-radius: 8px;
+            background-color: ghostwhite;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+        div.requestboximg img{
+            width: 200px;
+            height: 180px;
+            border-radius: 8px 8px 0 0;
+            margin: 0;
+        }
+        div.requestboxhd h4{
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 5px;
+        }
+        div.requestboxreqfrd button:hover{
+            background-color: #87cefa81;
+        }
+        div.requestboxreqfrd button{
+            background-color: #87cefa4f;
+            width: 180px;
+            height: 35px;
+            padding: 10px;
+            color: dodgerblue;
+            font-size: 14px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 6px;
+            border-radius: 6px;
+            border: none;
+        }
+        div.requestboxremfrd button:hover{
+            background-color: #a9a9a99a;
+        }
+        div.requestboxremfrd button{
+            width: 180px;
+            height: 35px;
+            padding: 10px;
+            background-color: #a9a9a970;
+            font-size: 14px;
+            border-radius: 6px;
+            margin-left: 10px;
+            margin-right: 10px;
+            border: none;
+        }
+        div.countrequest{
+            display: inline-block;
+            width: 19px;
+            height: 19px;
+            margin-left: 60px;
+            background-color: #6278fe;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            padding: 5px;
+        }
+        div.requestedboxreqfrd button:hover{
+            background-color: #87cefa81;
+        }
+        div.requestedboxreqfrd button{
+            background-color: #87cefa4f;
+            width: 180px;
+            height: 35px;
+            padding: 10px;
+            color: dodgerblue;
+            font-size: 14px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 6px;
+            border-radius: 6px;
+            border: none;
+        }
+        
+    </style>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="navBar">
+        <img src="https://static.xx.fbcdn.net/rsrc.php/yx/r/e9sqr8WnkCf.ico" alt="">
+        <span class="material-symbols-outlined chn">
+            search
+            </span>
+        <input type="text" placeholder="Search">
+        <ul>
+            <li><a href="main.html"><span class="material-symbols-outlined">
+                home
+                </span></a></li>
+            <li><a href="#about"><span class="material-symbols-outlined">
+                smart_display
+                </span></a></li>
+            <li><a href="#services"><span class="material-symbols-outlined">
+                storefront
+                </span></a></li>
+                <li><a href="#contact"><svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" class="xfx01vb x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq" style="--color: var(--primary-button-background);"><path d="M12 5a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"></path><path d="M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5zM3.34 8.088A9.502 9.502 0 0 1 12 2.5a9.502 9.502 0 0 1 8.66 5.588 4.001 4.001 0 0 0 0 7.824 9.514 9.514 0 0 1-1.755 2.613A5.002 5.002 0 0 0 14 14.5h-4a5.002 5.002 0 0 0-4.905 4.025 9.515 9.515 0 0 1-1.755-2.613 4.001 4.001 0 0 0 0-7.824z"></path></svg>
+
+            <li><a href="#contact"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" class="xfx01vb x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq" style="--color: var(--primary-icon);"><path d="M18.5 1A1.5 1.5 0 0 0 17 2.5v3A1.5 1.5 0 0 0 18.5 7h3A1.5 1.5 0 0 0 23 5.5v-3A1.5 1.5 0 0 0 21.5 1h-3zm0 8a1.5 1.5 0 0 0-1.5 1.5v3a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 0 1.5-1.5v-3A1.5 1.5 0 0 0 21.5 9h-3zm-16 8A1.5 1.5 0 0 0 1 18.5v3A1.5 1.5 0 0 0 2.5 23h3A1.5 1.5 0 0 0 7 21.5v-3A1.5 1.5 0 0 0 5.5 17h-3zm8 0A1.5 1.5 0 0 0 9 18.5v3a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 0 1.5-1.5v-3a1.5 1.5 0 0 0-1.5-1.5h-3zm8 0a1.5 1.5 0 0 0-1.5 1.5v3a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 0 1.5-1.5v-3a1.5 1.5 0 0 0-1.5-1.5h-3zm-16-8A1.5 1.5 0 0 0 1 10.5v3A1.5 1.5 0 0 0 2.5 15h3A1.5 1.5 0 0 0 7 13.5v-3A1.5 1.5 0 0 0 5.5 9h-3zm0-8A1.5 1.5 0 0 0 1 2.5v3A1.5 1.5 0 0 0 2.5 7h3A1.5 1.5 0 0 0 7 5.5v-3A1.5 1.5 0 0 0 5.5 1h-3zm8 0A1.5 1.5 0 0 0 9 2.5v3A1.5 1.5 0 0 0 10.5 7h3A1.5 1.5 0 0 0 15 5.5v-3A1.5 1.5 0 0 0 13.5 1h-3zm0 8A1.5 1.5 0 0 0 9 10.5v3a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 0 1.5-1.5v-3A1.5 1.5 0 0 0 13.5 9h-3z"></path></svg>
+                </a></li>  
+            <span class="right">
+                <span class="material-symbols-outlined">
+                    add
+                    </span>    
+            <li><a href="#contact"><svg viewBox="0 0 12 13" width="20" height="20" fill="currentColor" class="xfx01vb x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq" style="--color: var(--primary-icon);"><g fill-rule="evenodd" transform="translate(-450 -1073)"><path d="m459.603 1077.948-1.762 2.851a.89.89 0 0 1-1.302.245l-1.402-1.072a.354.354 0 0 0-.433.001l-1.893 1.465c-.253.196-.583-.112-.414-.386l1.763-2.851a.89.89 0 0 1 1.301-.245l1.402 1.072a.354.354 0 0 0 .434-.001l1.893-1.465c.253-.196.582.112.413.386M456 1073.5c-3.38 0-6 2.476-6 5.82 0 1.75.717 3.26 1.884 4.305.099.087.158.21.162.342l.032 1.067a.48.48 0 0 0 .674.425l1.191-.526a.473.473 0 0 1 .32-.024c.548.151 1.13.231 1.737.231 3.38 0 6-2.476 6-5.82 0-3.344-2.62-5.82-6-5.82"></path></g></svg></a></li>
+  
+            <li><a href="#contact"><span class="material-symbols-rounded">
+                notifications
+                </span></a></li>
+                <img class="logoo navbarlogo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBbvGBn5GIP-XuRshaY--ELTa7EeIP99ajyQ&s">
+                <span class="material-symbols-outlined dop">
+                    arrow_drop_down
+                    </span>    
+            </span>
+             </a></li> 
+        </ul>
+    </div>
+
+    <div class="leftsider">
+        <div class="subsidebarheading"><div><img class="logoo navbarlogo lo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBbvGBn5GIP-XuRshaY--ELTa7EeIP99ajyQ&s">
+        </div> <div class="logosidetext">Muhammad Hashim</div> </div>
+        <div class="subsidebarheading"><div><span class="material-symbols-outlined watch">
+            live_tv
+            </span></div><div class="logosidetext">Watch</div></div>
+        <div><div class="subsidebarheading"><div><span class="material-symbols-outlined watch e">
+                event
+                </span>
+           </div><div class="logosidetext">Events</div></div></div>
+        <div><div class="subsidebarheading"><div><span class="material-symbols-outlined watch frmemo">
+                group
+                </span>
+           </div><div class="logosidetext">Friends <div class="countrequest">1</div> </div></div></div>
+            <div><div class="subsidebarheading"><div><span class="material-symbols-outlined watch frmemo">
+                history           
+                </span></div><div class="logosidetext">Memories</div></div></div>    
+    </div>
+<div class="requestdiv">
+<h2>People You May Know</h2>
+<!-- <div class="requestbox">
+    <div class="requestboximg"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBbvGBn5GIP-XuRshaY--ELTa7EeIP99ajyQ&s" alt=""></div>
+    <div class="requestboxhd"><h4>Muhammad Hashim</h4></div>
+    <div class="requestboxreqfrd"><button>Add Friend</button></div>
+    <div class="requestboxremfrd"><button>Remove Friend</button></div>
+</div>
+<div class="requestbox">
+    <div class="requestboximg"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBbvGBn5GIP-XuRshaY--ELTa7EeIP99ajyQ&s" alt=""></div>
+    <div class="requestboxhd"><h4>Muhammad Hashim</h4></div>
+    <div class="requestboxreqfrd"><button>Add Friend</button></div>
+    <div class="requestboxremfrd"><button>Remove Friend</button></div>
+</div> -->
+<!-- <div class="requestbox">
+    <div class="requestboximg"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBbvGBn5GIP-XuRshaY--ELTa7EeIP99ajyQ&s" alt=""></div>
+    <div class="requestboxhd"><h4>Muhammad Hashim</h4></div>
+    <div class="requestboxreqfrd"><button>Add Friend</button></div>
+    <div class="requestboxremfrd"><button>Remove Friend</button></div>
+</div>
+<div class="requestbox">
+    <div class="requestboximg"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBbvGBn5GIP-XuRshaY--ELTa7EeIP99ajyQ&s" alt=""></div>
+    <div class="requestboxhd"><h4>Muhammad Hashim</h4></div>
+    <div class="requestboxreqfrd"><button>Add Friend</button></div>
+    <div class="requestboxremfrd"><button>Remove Friend</button></div>
+</div> -->
+<!-- <div class="requestbox">
+    <div class="requestboximg"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBbvGBn5GIP-XuRshaY--ELTa7EeIP99ajyQ&s" alt=""></div>
+    <div class="requestboxhd"><h4>Muhammad Hashim</h4></div>
+    <div class="requestboxreqfrd"><button>Add Friend</button></div>
+    <div class="requestboxremfrd"><button>Remove Friend</button></div>
+</div> -->
+<div class="requestbox none">
+    <div class="requestboximg"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBbvGBn5GIP-XuRshaY--ELTa7EeIP99ajyQ&s" alt=""></div>
+    <div class="requestboxhd"><h4>Muhammad Hashim</h4></div>
+    <div class="requestboxreqfrd"><button>Add Friend</button></div>
+    <div class="requestboxremfrd"><button>Remove Friend</button></div>
+</div>
+</div>
+    <script type="module" src="./friendrequestpage.js"></script>
+</body>
+</html>
